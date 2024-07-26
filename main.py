@@ -2,7 +2,8 @@ import requests
 import html2text as h2t
 from bs4 import BeautifulSoup
 
-url = "https://produto.mercadolivre.com.br/MLB-4694307296-notebook-lenovo-core-i5-16gb-ram-256gb-ssd-windows-11-pro-_JM?searchVariation=180512720468#searchVariation%3D180512720468%26position%3D18%26search_layout%3Dgrid%26type%3Ditem%26tracking_id%3D5cc68801-3b1c-4286-a54d-f29b8cf0a649"
+# Insert your url
+url = ""
 requrl = requests.get(url)
 
 html = requrl.text
